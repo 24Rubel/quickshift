@@ -1,0 +1,222 @@
+/**************************
+ 		Global CSS
+***************************/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a,
+a:hover {
+	font-family: "Open Sans", sans-serif;
+	text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Open Sans", sans-serif;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+.container {
+	width: 1140px;
+}
+
+
+/********************************
+Navbar section css code start
+*********************************/
+.nav-section {
+	background: #022052;
+}
+
+.navbar {
+	padding: 20px 0px !important;
+	display: block !important;
+}
+
+.manu-site {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.manu-site a {
+	padding: 10px 20px;
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	transition: 0.5s;
+}
+
+.manu-site a:hover {
+	color: #579dfe;
+	transition: 0.5s;
+}
+
+.dropdown {
+	padding-top: 10px;
+}
+
+.dropdown ul {
+	padding: 0;
+	border-radius: 0;
+}
+
+.dropdown ul li {
+	background: #fff;
+	color: #579dfe;
+}
+
+.dropdown ul li a {
+	color: #000000;
+}
+
+.nav-btn {
+	padding: 10px 20px;
+	background: #579dfe;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 600 !important;
+}
+
+.nav-btn:hover {
+	background: white;
+	color: #579dfe !important;
+}
+
+/********************************
+Navbar section css code end
+*********************************/
+
+
+/*******************************
+banner section css code start
+********************************/
+.banner-section {
+	width: 100%;
+	background: #022052;
+	height: 91vh;
+}
+
+.banner-inner {
+	display: flex;
+}
+
+.banner-content {
+	padding: 200px 0;
+}
+
+.banner-content .span1 {
+	font-size: 16px;
+	color: white;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.banner-content h1 {
+	color: white;
+	font-size: 48px;
+	font-weight: 600;
+	padding-right: 220px;
+	padding-top: 10px;
+}
+
+.banner-content h1 .span2 {
+	color: #579dfe;
+	font-size: 48px;
+	font-weight: 600;
+}
+
+.banner-content p {
+    font-size: 18px;
+    color: white;
+    padding: 15px 220px 15px 0;
+}
+
+.double-btn {
+	padding-bottom: 20px;
+}
+
+.banner-btn1 {
+	padding: 10px 20px;
+	background: #ffffff;
+	border: none;
+	border-radius: 5px;
+	color: #000000;
+	font-weight: 600;
+	transition: .5s;
+}
+
+.banner-btn1:hover {
+	background: #579dfe;
+	color: #ffffff;
+	transition: .5s;
+}
+
+.banner-btn2 {
+	padding: 10px 20px;
+	margin-left: 5px;
+	background: #579dfe;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 600;
+	transition: .5s;
+}
+
+.banner-btn2:hover {
+	background: #ffffff;
+	color: #000000;
+	transition: .5s;
+}
+
+.satisfied {
+	color: white;
+}
+
+.satisfied i {
+	padding: 5px;
+	margin-right: 5px;
+    border: 1px solid #579dfe;
+    border-radius: 15px;
+    background: #579dfe;
+}
+
+.satisfied span .span3 {
+	color: white;
+	font-size: 16px;
+}
+
+.banner-img img{
+	width: 100%;
+    margin: 0px 0px 0px 0;
+    padding-top: 50px;
+}
+
+/*******************************
+banner section css code end
+********************************/
+
+
+
+
+
+
+
+/*************Md Rubel Gazi*************/
